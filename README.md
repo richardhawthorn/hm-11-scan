@@ -15,7 +15,7 @@ Connect the HM-11 pins to a 3.3v Arduino, or to a regular 5v Arduino through a l
 <pre>
     _______
    |       |          HM-11  -->  Arduino
- 1 :       : 12       9           3.3V
+ 1 :       : 16       9           3.3V
    :       :          12          GND
    :       :          4 (RX)      3 (TX)
  8 :_______: 9        2 (TX)      2 (RX)
