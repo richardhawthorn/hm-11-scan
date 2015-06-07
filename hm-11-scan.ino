@@ -20,8 +20,8 @@ int lastMinute = -1;
 void setup()  
 {
   //setup the serial ports
-  Serial.begin(19200);
-  mySerial.begin(19200);
+  Serial.begin(9600);
+  mySerial.begin(9600);
   
   //reserve space for the incoming string data
   inputString.reserve(200);
