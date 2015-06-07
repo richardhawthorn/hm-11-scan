@@ -1,1 +1,20 @@
 # hm-11-scan
+
+Scan for nearby Bluetooth LE peripherals using HM-11 and Arduino
+This works on any ble device that advertises itself, beacons, trackers, wearables.
+
+# Software
+
+The code puts the HM-11 into master mode, and then scans every minute for nearby devices.
+Software returns device name and id.
+
+# Hardware
+
+Connect the HM-11 pins to a 3.3v Arduino, or to a regular 5v Arduino through a logic level shifter.
+
+HM-11  -->  Arduino
+
+9           3.3V
+12          GND
+4 (RX)      2 (TX)
+2 (TX)      3 (RX)
